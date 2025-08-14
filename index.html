@@ -1,24 +1,276 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Playbook — 1º Preparatoria — Misión M17 - Workflows con IA: Introducción</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Misión M17: Workflows con IA: Introducción</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+<li><a href="#activity-5">5</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+<p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<section class="activity-card" id="activity-0">
+<h2 class="activity-title">📝 De un Vistazo: Misión M17 - Workflows con IA: Introducción</h2>
+<p class="activity-purpose">Resumen de objetivos, secuencia y entregables de la sesión.</p>
+<div class="overview">
+<section class="overview-block">
+<h3>Objetivos e “I Can”</h3>
+<ul>
+<li>Puedo identificar la lógica "Trigger -> Action" en un workflow de automatización.</li>
+<li>Puedo construir una automatización personal funcional utilizando herramientas no-code como Zapier o Make.com.</li>
+<li>Puedo integrar un nodo de IA en un workflow para procesar información entre aplicaciones.</li>
+</ul>
+</section>
+<section class="overview-block">
+<h3>Secuencia y tiempos</h3>
+<ol>
+<li>Saludo Interactivo con IA — 3 min</li>
+<li>“I Can” + Desafío — 5–7 min</li>
+<li>AI GYM — 10–12 min</li>
+<li>Brain Spark — 17–20 min</li>
+<li>GNIUS STORM — 5 min</li>
+</ol>
+</section>
+<section class="overview-block">
+<h3>Entregable del Micro-Proyecto</h3>
+<ul>
+<li>Una automatización personal funcional (workflow) en Zapier o Make.com.</li>
+</ul>
+</section>
+<section class="overview-block">
+<h3>Criterios de calidad</h3>
+<ul>
+<li>El workflow implementa correctamente la lógica "Trigger -> Action".</li>
+<li>La automatización conecta al menos dos aplicaciones relevantes.</li>
+<li>El nodo de IA procesa la información de manera efectiva dentro del workflow.</li>
+<li>La tarea definida se automatiza de forma exitosa y consistente.</li>
+</ul>
+</section>
+<section class="overview-block">
+<h3>Materiales y preparación</h3>
+<ul>
+<li>Proyector e internet</li>
+<li>Acceso a LLM (Xolo) y herramientas: Zapier o Make.com</li>
+<li>Plantilla de ejemplo de workflow simple lista</li>
+</ul>
+</section>
+</div>
+</section>
+<section class="activity-card" id="activity-1">
+<h2 class="activity-title">Saludo Interactivo con IA</h2>
+<p class="activity-purpose">Activar a Xolo con perfil e intereses; conectar con el foco de la misión.</p>
+<div class="steps">
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 1 — Bienvenida y foco</h3>
+<p class="step-instructions">Proyectar Diapositiva 2. Presenta el tema y el valor profesional según la Columna 1.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Equipo: hoy trabajaremos en la introducción a los workflows con IA. Esto nos permitirá automatizar tareas repetitivas, aumentando nuestra eficiencia personal y profesional. El objetivo es que logren construir su primera automatización funcional con criterios claros.</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 2 — Activación con Xolo</h3>
+<p class="step-instructions">Cada estudiante abre su chat con Xolo y envía saludo con perfil de aprendizaje e intereses + referencia a la misión.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Activen a Xolo con su perfil e intereses. Un mensaje como: "Hola Xolo, soy [Nombre], perfil [Ej: Analista de Datos]; me interesa [Ej: optimizar procesos]. Estoy en la Misión M17." Confirmen que comprendieron los criterios de hoy y sigan sus indicaciones personalizadas.</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="activity-card" id="activity-2">
+<h2 class="activity-title">“I Can Statement” + Desafío</h2>
+<p class="activity-purpose">Alinear expectativas y definir el reto práctico.</p>
+<div class="steps">
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 1 — Presenta el reto</h3>
+<p class="step-instructions">Proyectar Diapositiva 3. Describe el reto y la meta observable, derivado de Columna 1 y 3.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">El reto es construir su primera automatización personal funcional. Esto implica conectar dos aplicaciones y lograr que una tarea se ejecute automáticamente, integrando un nodo de IA para procesar información. Evaluaremos con la correcta implementación de la lógica "Trigger -> Action" y la evidencia del workflow funcionando.</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 2 — Escribe tu “I Can”</h3>
+<p class="step-instructions">Proyectar Diapositiva 4. Cada estudiante redacta 1 “I Can” concreto alineado al entregable de Columna 2.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Formula tu "Puedo…" en una o dos frases. Por ejemplo: "Puedo identificar la lógica 'Trigger -> Action' en un workflow de automatización." y "Puedo construir una automatización personal funcional utilizando herramientas no-code como Zapier o Make.com e integrar un nodo de IA." Tienen un minuto para redactarlo.</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="activity-card" id="activity-3">
+<h2 class="activity-title">AI GYM</h2>
+<p class="activity-purpose">Formalizar el marco/técnica de IA de la sesión.</p>
+<div class="steps">
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 1 — Marco del día: Legos Digitales y Lógica "Trigger -> Action"</h3>
+<p class="step-instructions">Proyectar Diapositiva 5. Introduce las herramientas no-code (Zapier/Make.com) como 'legos digitales' y explica la lógica "Trigger -> Action".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Hoy exploraremos el poder de las herramientas no-code de automatización, como Zapier o Make.com. Piensen en ellas como 'legos digitales' que nos permiten conectar APIs sin escribir código. El concepto central es "Trigger -> Action": un evento inicial (Trigger) desencadena una o más acciones (Action). Este marco agrega valor porque nos permite escalar nuestra eficiencia sin necesidad de programación compleja. Eviten el error común de confundir el Trigger con la Action, o de asumir que una herramienta puede hacer cualquier cosa. Usen la claridad en la definición del evento y la tarea para validar sus resultados.</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 2 — Mini-demostración: Construyendo un Workflow Básico</h3>
+<p class="step-instructions">Proyectar Diapositiva 6. Construye en vivo un ejemplo mínimo de workflow (ej. "Nuevo correo en Gmail -> Notificación en Slack").</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Observen cómo configuramos un workflow básico. Por ejemplo, si el Trigger es "Nuevo correo electrónico con asunto 'Urgente' en Gmail", la Action podría ser "Enviar una notificación a un canal de Slack". ¿Cuál es el Trigger aquí? ¿Y cuál es la Action? Verifiquen que el flujo de datos sea lógico y que las credenciales de las aplicaciones estén correctamente conectadas.</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 3 — Check rápido: Identificación de Componentes</h3>
+<p class="step-instructions">Proyectar Diapositiva 7. Verifica comprensión con 2 preguntas breves.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Pregunta 1: Si quiero que un workflow se active cuando recibo un archivo en Google Drive, ¿eso sería un Trigger o una Action? Pregunta 2: ¿Qué significa que una herramienta no-code conecta APIs sin código?</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="activity-card" id="activity-4">
+<h2 class="activity-title">Brain Spark</h2>
+<p class="activity-purpose">Producir el entregable tangible del Micro-Proyecto.</p>
+<div class="steps">
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 1 — Producción: Diseña y construye tu automatización</h3>
+<p class="step-instructions">Proyectar Diapositiva 8. Indica el producto específico (Columna 2) y checklist de calidad (Columna 3). Tiempo de trabajo autónomo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">N/A</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 2 — Iteración: Integra y refina el nodo de IA</h3>
+<p class="step-instructions">Proyectar Diapositiva 9. Pide una mejora concreta basada en criterios (ej., añadir un paso de IA para resumir texto, clasificar, traducir, etc.).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Antes de cerrar: valida que tu workflow integre un nodo de IA que procese la información de manera efectiva. Por ejemplo, si tu Trigger es un texto, ¿el nodo de IA lo resume o clasifica antes de la Action final? Si no se cumple, ajusta y vuelve a probar. Asegúrate de que el flujo de datos entre el Trigger, el nodo de IA y la Action sea coherente.</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 3 — Evidencia: Demuestra tu workflow funcional</h3>
+<p class="step-instructions">Proyectar Diapositiva 10. Solicita evidencia: captura de pantalla del workflow configurado y una breve demostración (video/GIF) de su funcionamiento.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Sube la evidencia al canal indicado. Incluye una captura de pantalla de tu workflow en la herramienta (Zapier/Make.com) y un video o GIF corto que demuestre que la automatización funciona. Nombra tu archivo: M17_Workflow_[TuNombre]_[Versión].</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="activity-card" id="activity-5">
+<h2 class="activity-title">GNIUS STORM</h2>
+<p class="activity-purpose">Exhibir resultados y cerrar con síntesis accionable.</p>
+<div class="steps">
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 1 — Showcase relámpago</h3>
+<p class="step-instructions">2–3 equipos/personas muestran evidencia clave (30–45 s c/u).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Describe tu automatización en 30 segundos: ¿Cuál es el Trigger? ¿Qué Action realiza? ¿Cómo el nodo de IA procesa la información? Y, ¿qué problema resuelve?</p>
+</div>
+</div>
+</article>
+<article class="step-card">
+<div class="step-content">
+<h3 class="step-title">Paso 2 — Cierre ejecutivo</h3>
+<p class="step-instructions">Proyectar Diapositiva 11. Entrega síntesis: 1 aprendizaje clave + 1 criterio de calidad que marcó la diferencia + siguiente paso aplicable fuera del aula.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Síntesis: Hoy aprendimos a transformar tareas repetitivas en procesos eficientes mediante la automatización con IA. El criterio clave que marcó la diferencia fue la correcta identificación y configuración del "Trigger" y la "Action", y la integración efectiva del nodo de IA. El siguiente paso aplicado fuera del aula es identificar una tarea personal o escolar que realicen con frecuencia y que pueda ser automatizada para ahorrar tiempo y esfuerzo. Piensen en cómo pueden aplicar estos 'legos digitales' en su día a día.</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
